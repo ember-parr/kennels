@@ -1,3 +1,26 @@
+import React from "react"
+import ReactDOM from "react-dom"
+import { Kennel } from "./components/Kennel"
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Kennel />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+
+
+
+
+
+
+
+
+// ALL CODE BELOW THIS LINE WAS ALREADY INSIDE THIS FILE 
+// CODE ABOVE WAS COPIED FROM CHAPTER 
+
+/* 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -11,7 +34,16 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+*/
+
+
+
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
+
+
+/*
 serviceWorker.unregister();
+*/
